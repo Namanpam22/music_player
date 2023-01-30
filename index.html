@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css"
+        integrity="sha512-6mc0R607di/biCutMUtU9K7NtNewiGQzrvWX4bWTeqmljZdJrwYvKJtnhgR+Ryvj+NRJ8+NnnCM/biGqMe/iRA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Music-player</div>
+            <div class="menu-btn">
+                <div class="open active"><i class="fa-solid fa-bars"></i></div>
+                <div class="close active" ><i class="fa-solid fa-xmark"></i></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <div class="title">
+                <h1>Hello here</h1>
+            </div>
+            <div class="singer">
+                <p>khushi</p>
+            </div>
+            <div class="banner">
+                <img src="./Images/321A6669.JPG" alt="banner">
+            </div>
+            <div class="progress">
+                <progress value="62" max="100"></progress>
+            </div>
+            <div class="controls">
+                <audio src=""></audio>
+                <ul>
+                    <li class="prev"><i class="fa-solid fa-backward"></i></li>
+                    <li class="play active"><i class="fa-solid fa-play"></i></li>
+                    <li class="pause"><i class="fa-solid fa-pause"></i></li>
+                    <li class="next"><i class="fa-sharp fa-solid fa-forward"></i></li>
+                </ul>
+            </div>
+        </main>
+        <aside>
+            <ul class="music-list"> 
+                <li class="music_list_item">
+                    <div class="music-img"></div>
+                    <div class="title">
+                        <h2 class="song_name">Hello here</h2>
+                        <p class="singer">khushi</p>
+                    </div>
+                    <div class="duration">
+                        <p>2:03</p>
+                    </div>
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </li>
+            
+            </ul>
+        </aside>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
